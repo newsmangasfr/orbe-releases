@@ -54,12 +54,13 @@ Deux pages côte à côte dans la même fenêtre (Ctrl Maj D).
 ![Vue partagée : Wikipédia et OpenStreetMap côte à côte](captures/vue-partagee.jpg)
 
 ### Vidéos : HDR intelligent et noirs profonds
-- Le bouton vidéo, en haut à gauche, montre ce que reçoivent les vidéos : **HDR** (vrai HDR), **SDR+** (SDR aux noirs profonds) ou **SDR**. Il affiche « auto » quand Orbe décide selon votre écran.
+- **HDR automatique** : pas besoin d'activer le HDR dans Windows. Quand une vidéo existe en HDR, Orbe l'ouvre dans son lecteur HDR et allume le HDR de l'écran le temps de la vidéo, puis le remet comme avant.
+- Un **badge vidéo** apparaît en haut à droite, à côté des extensions, dès qu'une vidéo démarre : **HDR**, **SDR+** (SDR aux noirs profonds) ou **SDR**.
 - **HDR adaptatif** : Orbe mesure la marge HDR de votre écran (luminosité maximale ÷ blanc SDR de Windows) et choisit, page par page, la version de la vidéo qui sera la plus belle. Il refait la mesure quand vous revenez dans Orbe ou changez d'écran.
 - **Noirs profonds (SDR+)** : quand le HDR de Windows est activé, Windows grise les ombres des vidéos SDR. Orbe les corrige (gamma 2.2) sur la vidéo seulement, jamais sur les vidéos HDR.
 - Décodage par la puce graphique (AV1, VP9, HEVC, H.264) : fluide et économe en batterie.
 
-![Une vidéo YouTube dans Orbe, avec le bouton SDR+ en haut à gauche](captures/video-hdr.jpg)
+![Une vidéo YouTube dans Orbe](captures/video-hdr.jpg)
 
 ![Paramètres : Vidéo et HDR](captures/parametres-video.jpg)
 
@@ -113,7 +114,7 @@ La liste complète est dans **Paramètres › Raccourcis**.
 
 - Windows 10 ou 11, 64 bits.
 - Processeur ARM64 ou x64.
-- Pour les vidéos en HDR : un écran HDR et l'option « Utiliser le HDR » de Windows activée.
+- Pour les vidéos en HDR : un écran compatible HDR (Orbe allume le HDR de Windows tout seul pendant les vidéos HDR).
 
 ## Limites connues
 
@@ -135,6 +136,7 @@ Une nouvelle version d'Orbe, réécrite en C++ avec une interface dessinée dire
 
 Les notes de chaque version sont dans **[Releases](https://github.com/newsmangasfr/orbe-releases/releases)**. Les plus récentes :
 
+- **0.9.12** : HDR automatique sans régler Windows, badge vidéo HDR / SDR+ / SDR à côté des extensions.
 - **0.9.11** : paramètres Vidéo et HDR remis à jour, boutons « Redémarrer Orbe » affichés seulement quand il le faut.
 - **0.9.10** : bouton vidéo HDR / SDR+ / SDR toujours visible, noirs profonds pour les vidéos SDR.
 - **0.9.9** : Orbe existe aussi pour les PC Intel et AMD (x64).
