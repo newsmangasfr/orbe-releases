@@ -135,6 +135,7 @@ Une nouvelle version d'Orbe, réécrite en C++ avec une interface dessinée dire
 
 Les notes de chaque version sont dans **[Releases](https://github.com/newsmangasfr/orbe-releases/releases)**. Les plus récentes :
 
+- **0.9.11** : paramètres Vidéo et HDR remis à jour, boutons « Redémarrer Orbe » affichés seulement quand il le faut.
 - **0.9.10** : bouton vidéo HDR / SDR+ / SDR toujours visible, noirs profonds pour les vidéos SDR.
 - **0.9.9** : Orbe existe aussi pour les PC Intel et AMD (x64).
 - **0.9.8** : un profil peut s'ouvrir dans une fenêtre à part.
