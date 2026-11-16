@@ -137,6 +137,7 @@ Une nouvelle version d'Orbe, réécrite en C++ avec une interface dessinée dire
 
 Les notes de chaque version sont dans **[Releases](https://github.com/newsmangasfr/orbe-releases/releases)**. Les plus récentes :
 
+- **0.9.16** : barre Retour / Suivant / Actualiser, badge vidéo et extensions dans les fenêtres d'application ; badge vidéo plus fiable.
 - **0.9.15** : Vidéo Nomade (8 places intelligentes, touche Alt, pause, ±10 s et taille à la molette).
 - **0.9.14** : YouTube démarre du premier coup (plus de lecteur noir à la première ouverture), publicités toujours bloquées.
 - **0.9.13** : image dans l'image sur tous les bureaux et qui s'écarte de la souris ; badge vidéo seulement pendant une vidéo.
