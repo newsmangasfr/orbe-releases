@@ -137,6 +137,7 @@ Une nouvelle version d'Orbe, réécrite en C++ avec une interface dessinée dire
 
 Les notes de chaque version sont dans **[Releases](https://github.com/newsmangasfr/orbe-releases/releases)**. Les plus récentes :
 
+- **0.9.14** : YouTube démarre du premier coup (plus de lecteur noir à la première ouverture), publicités toujours bloquées.
 - **0.9.13** : image dans l'image sur tous les bureaux et qui s'écarte de la souris ; badge vidéo seulement pendant une vidéo.
 - **0.9.12** : HDR automatique sans régler Windows, badge vidéo HDR / SDR+ / SDR à côté des extensions.
 - **0.9.11** : paramètres Vidéo et HDR remis à jour, boutons « Redémarrer Orbe » affichés seulement quand il le faut.
