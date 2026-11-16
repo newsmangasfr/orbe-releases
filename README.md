@@ -80,7 +80,8 @@ Mémoire et processeur de chaque onglet, en direct (Maj Échap). Mettez en veill
 - **Import** des favoris et de l'historique depuis Chrome, Edge, Brave, Firefox et d'autres.
 - **Sauvegardes automatiques** des profils, et restauration en un clic.
 - **Rapport de plantage local** : si une page ou Orbe plante, le journal garde ce qui s'est passé, sur votre ordinateur seulement.
-- Image dans l'image automatique, mini-fenêtre, téléchargements, recherche dans la page, thèmes clair et sombre.
+- **Image dans l'image** automatique, visible sur tous les bureaux virtuels, qui s'écarte quand la souris arrive dessus (Ctrl pour la garder).
+- Mini-fenêtre, téléchargements, recherche dans la page, thèmes clair et sombre.
 - Moteur de recherche au choix : Google, DuckDuckGo, Bing, Qwant, Ecosia, Brave Search.
 
 ---
@@ -136,6 +137,7 @@ Une nouvelle version d'Orbe, réécrite en C++ avec une interface dessinée dire
 
 Les notes de chaque version sont dans **[Releases](https://github.com/newsmangasfr/orbe-releases/releases)**. Les plus récentes :
 
+- **0.9.13** : image dans l'image sur tous les bureaux et qui s'écarte de la souris ; badge vidéo seulement pendant une vidéo.
 - **0.9.12** : HDR automatique sans régler Windows, badge vidéo HDR / SDR+ / SDR à côté des extensions.
 - **0.9.11** : paramètres Vidéo et HDR remis à jour, boutons « Redémarrer Orbe » affichés seulement quand il le faut.
 - **0.9.10** : bouton vidéo HDR / SDR+ / SDR toujours visible, noirs profonds pour les vidéos SDR.
